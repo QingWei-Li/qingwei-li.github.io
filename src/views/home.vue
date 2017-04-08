@@ -72,7 +72,7 @@
 
   .profile {
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 26vh;
     height: 100vh;
     box-sizing: border-box;
   }
