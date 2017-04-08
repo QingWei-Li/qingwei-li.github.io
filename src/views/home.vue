@@ -15,7 +15,7 @@
     </section>
 
     <section class="list">
-      <h4 class="list__title">My projects</h4>
+      <h4 class="list__title">⬇️ My projects ⬇️</h4>
       <ul class="projects">
         <li class="projects__item" v-for="p in projects">
           <project :data="p" />
@@ -72,7 +72,8 @@
 
   .profile {
     text-align: center;
-    padding: 10vh 0;
+    padding-top: 30vh;
+    height: 100vh;
     box-sizing: border-box;
   }
 
@@ -119,16 +120,5 @@
 
   .projects__item:last-child {
     border-bottom: 0;
-  }
-
-  @media screen and (max-width: 600px) {
-    .profile {
-      height: 100vh;
-      padding-top: 26vh;
-    }
-
-    .list {
-      margin-top: 0;
-    }
   }
 </style>
