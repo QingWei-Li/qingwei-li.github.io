@@ -1,0 +1,21 @@
+{
+  "name": "cinwell.com",
+  "private": true,
+  "scripts": {
+    "dev": "ream dev",
+    "build": "ream build",
+    "deploy": "ream generate && gh-page -d dist"
+  },
+  "version": "0.0.0",
+  "homepage": "https://cinwell.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QingWei-Li/cinwell.com.git"
+  },
+  "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
+  "license": "MIT",
+  "devDependencies": {
+    "ream": "beta",
+    "gh-pages": "^0.12.0"
+  }
+}
