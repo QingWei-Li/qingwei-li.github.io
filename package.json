@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "ream dev",
     "build": "ream build",
-    "deploy": "ream generate && gh-page -d dist"
+    "deploy": "ream generate && gh-pages -d .ream/dist"
   },
   "version": "0.0.0",
   "homepage": "https://cinwell.com",
