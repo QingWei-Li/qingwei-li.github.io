@@ -35,7 +35,7 @@
     components: { Project },
 
     head: {
-      title: 'Qingwei Li',
+      title: 'Qingwei Li(cinwell)',
       link: [
         { rel: 'favicon', href: 'https://github.com/qingwei-li.png' }
       ]
