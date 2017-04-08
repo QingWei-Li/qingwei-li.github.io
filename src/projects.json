@@ -1,0 +1,51 @@
+[
+  {
+    "name": "docsify",
+    "desc": "🃏 A magical documentation site generator.",
+    "image": "https://docsify.js.org/_media/icon.svg",
+    "links": [
+      {
+        "name": "Documentation",
+        "url": "https://docsify.js.org/"
+      }
+    ]
+  },
+  {
+    "name": "vuep",
+    "desc": "🎡 A component for rendering Vue components with live editor and preview.",
+    "image": "https://cloud.githubusercontent.com/assets/7565692/21482443/093e4970-cbaf-11e6-89f0-eae73fc49741.png",
+    "links": [
+      {
+        "name": "Documentation",
+        "url": "https://qingwei-li.github.io/vuep/"
+      }
+    ]
+  },
+  {
+    "name": "vue-trend",
+    "desc": "🌈 Simple, elegant spark lines for VueJS.",
+    "image": "https://cloud.githubusercontent.com/assets/7565692/23977197/9da0b77c-0a27-11e7-8f14-4d3845a524a0.png",
+    "links": [
+      {
+        "name": "Live Demo",
+        "url": "https://jsfiddle.net/nyh18bLq/"
+      }
+    ]
+  },
+  {
+    "name": "vuerify",
+    "desc": "🚩 Validation plugin for Vue.js",
+    "image": "https://github.com/QingWei-Li/vuerify/raw/master/media/logo.png",
+    "links": [
+      {
+        "name": "Demo",
+        "url": "https://qingwei-li.github.io/vuerify"
+      }
+    ]
+  },
+  {
+    "name": "pue-loader",
+    "desc": "🐍 A more pythonic javascript for Vue component file. (Pug + CoffeeScript + Stylus)",
+    "image": "https://cloud.githubusercontent.com/assets/7565692/24585725/161da904-17c4-11e7-8a04-02fa5241560b.png"
+  }
+]

@@ -14,23 +14,35 @@
       </ul>
     </section>
 
-   <!--  <section class="list">
-      <h4>My projects</h4>
+    <section class="list">
+      <h4 class="list__title">My projects</h4>
       <ul class="projects">
+        <li class="projects__item" v-for="p in projects">
+          <project :data="p" />
+        </li>
       </ul>
-    </section> -->
+      <a target="_blank" href="https://github.com/QingWei-Li?utf8=%E2%9C%93&tab=repositories&q=&type=source">More projects</a>
+    </section>
   </main>
 </template>
 
 <script>
+  import Project from '../components/project.vue'
+
   export default {
     name: 'home',
+
+    components: { Project },
 
     head: {
       title: 'Qingwei Li',
       link: [
         { rel: 'favicon', href: 'https://github.com/qingwei-li.png' }
       ]
+    },
+
+    created () {
+      this.projects = require('../projects.json')
     }
   }
 </script>
@@ -41,7 +53,7 @@
   body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     color: #2c3e50;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
   }
 
@@ -60,8 +72,7 @@
 
   .profile {
     text-align: center;
-    /*padding-top: 10vh;*/
-    padding-top: 30vh;
+    padding: 10vh 0;
     box-sizing: border-box;
   }
 
@@ -91,10 +102,26 @@
 
   .list {
     text-align: center;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
- /* @media screen and (max-width: 600px) {
+  .list__title {
+    margin-bottom: 3rem;
+  }
+
+  .projects__item {
+    border-bottom: 1px dashed #f0f0f0;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .projects__item:last-child {
+    border-bottom: 0;
+  }
+
+  @media screen and (max-width: 600px) {
     .profile {
       height: 100vh;
       padding-top: 26vh;
@@ -103,5 +130,5 @@
     .list {
       margin-top: 0;
     }
-  }*/
+  }
 </style>
