@@ -47,5 +47,16 @@
     "name": "pue-loader",
     "desc": "🐍 A more pythonic javascript for Vue component file. (Pug + CoffeeScript + Stylus)",
     "image": "https://cloud.githubusercontent.com/assets/7565692/24585725/161da904-17c4-11e7-8a04-02fa5241560b.png"
+  },
+  {
+    "name": "npmarket",
+    "desc": "🛒 More efficient search for node packages",
+    "image": "https://cloud.githubusercontent.com/assets/7565692/25064699/68349860-2232-11e7-85e9-fbdd88de317c.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://npmarket.surge.sh"
+      }
+    ]
   }
 ]

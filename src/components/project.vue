@@ -1,10 +1,6 @@
 <template>
   <div class="project">
-    <div
-      @click="previewImage"
-      class="project__image"
-      :style="{ backgroundImage: `url(${data.image})` }">
-    </div>
+    <img ref="image" :src="data.image" class="project__image">
     <div class="project__info">
       <h5 class="project__name">{{ data.name }}</h5>
       <p class="project__desc">{{ data.desc }}</p>
@@ -21,10 +17,20 @@
 </template>
 
 <script>
+  import zoom from 'zoom-image'
+
   export default {
     name: 'project',
 
     props: ['data'],
+
+    mounted() {
+      this.destroyZoom = zoom(this.$refs.image)
+    },
+
+    beforeDestroy() {
+      this.destroyZoom()
+    },
 
     methods: {
       previewImage () {
@@ -34,19 +40,17 @@
   }
 </script>
 
+<style src="zoom-image/css/zoom-image.css"></style>
 <style>
   .project {
     display: flex;
     text-align: left;
+    align-items: center;
   }
 
   .project__image {
     width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
-    cursor: zoom-in;
+    height: 100%;
   }
 
   @media screen and (max-width: 600px) {

@@ -15,7 +15,10 @@
   "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
   "license": "MIT",
   "devDependencies": {
-    "ream": "beta",
-    "gh-pages": "^0.12.0"
+    "gh-pages": "^0.12.0",
+    "ream": "beta"
+  },
+  "dependencies": {
+    "zoom-image": "^0.1.4"
   }
 }
