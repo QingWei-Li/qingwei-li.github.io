@@ -1,17 +1,19 @@
 <template>
   <main>
     <section class="profile">
-      <img
-        class="profile__avatar"
-        src="https://github.com/qingwei-li.png"
-        alt="qingwei-li">
-      <h1 class="profile__name">Qingwei Li</h1>
-      <blockquote class="profile__description">A Web developer who loves to create amazing things</blockquote>
-      <ul class="links">
-        <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
-        <li class="links__item"><a href="https://www.zhihu.com/people/cinwell">Zhihu</a></li>
-        <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
-      </ul>
+      <div class="profile__container">
+        <img
+          class="profile__avatar"
+          src="https://github.com/qingwei-li.png"
+          alt="qingwei-li">
+        <h1 class="profile__name">Qingwei Li</h1>
+        <blockquote class="profile__description">A Web developer who loves to create amazing things</blockquote>
+        <ul class="links">
+          <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
+          <li class="links__item"><a href="https://www.zhihu.com/people/cinwell">Zhihu</a></li>
+          <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
+        </ul>
+      </div>
     </section>
 
     <section class="list">
@@ -72,9 +74,13 @@
 
   .profile {
     text-align: center;
-    padding-top: 26vh;
     height: 100vh;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile__container {
+    flex: 1;
   }
 
   .profile__avatar {
