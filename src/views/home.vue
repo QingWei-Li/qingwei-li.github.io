@@ -10,8 +10,8 @@
         <blockquote class="profile__description">A Web developer who loves to create amazing things</blockquote>
         <ul class="links">
           <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
-          <li class="links__item"><a href="https://www.zhihu.com/people/cinwell">Zhihu</a></li>
           <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
+          <li class="links__item"><a href="mailto:cinwell.li@gmail.com">Email</a></li>
         </ul>
       </div>
     </section>

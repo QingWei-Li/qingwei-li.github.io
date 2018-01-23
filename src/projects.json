@@ -44,9 +44,15 @@
     ]
   },
   {
-    "name": "pue-loader",
-    "desc": "🐍 A more pythonic javascript for Vue component file. (Pug + CoffeeScript + Stylus)",
-    "image": "https://cloud.githubusercontent.com/assets/7565692/24585725/161da904-17c4-11e7-8a04-02fa5241560b.png"
+    "name": "vue-markdown-loader",
+    "desc": "📇 Convert Markdown file to Vue component.",
+    "image": "https://user-images.githubusercontent.com/7565692/35255046-f47a5390-0027-11e8-948e-f0d5003ec3e2.png",
+    "links": [
+      {
+        "name": "Demo",
+        "url": "glitch.com/edit/#!/vue-markdown"
+      }
+    ]
   },
   {
     "name": "npmarket",
