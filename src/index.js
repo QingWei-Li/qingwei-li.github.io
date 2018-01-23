@@ -9,11 +9,11 @@ const routes = [
     component: () => import('./views/home.vue')
   }
 ]
-const router = new Router({
+const createRouter = () => new Router({
   mode: 'history',
   routes
 })
 
 export default {
-  router
+  createRouter
 }
