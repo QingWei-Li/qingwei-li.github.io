@@ -1,24 +1,24 @@
 {
   "publicPath": "/",
   "all": [
-    "0.fb38f6c7.js",
+    "0.2b114d33.js",
     "vendor.e0dd2016.js",
     "client.65a54a0e.js",
-    "manifest.84a55b33.js",
-    "0.fb38f6c7.js.map",
+    "manifest.16eb571f.js",
+    "0.2b114d33.js.map",
     "vendor.e0dd2016.js.map",
     "client.65a54a0e.js.map",
-    "manifest.84a55b33.js.map",
+    "manifest.16eb571f.js.map",
     "CNAME",
     "index.html"
   ],
   "initial": [
-    "manifest.84a55b33.js",
+    "manifest.16eb571f.js",
     "vendor.e0dd2016.js",
     "client.65a54a0e.js"
   ],
   "async": [
-    "0.fb38f6c7.js"
+    "0.2b114d33.js"
   ],
   "modules": {
     "54883462": [
