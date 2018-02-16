@@ -1,25 +1,25 @@
 {
   "publicPath": "/",
   "all": [
-    "0.0b2a5921.js.map",
+    "0.5a223752.js.map",
     "static/heart.3c552872.png",
     "vendor.e0dd2016.js",
     "client.65a54a0e.js",
-    "manifest.c10949a6.js",
-    "0.0b2a5921.js",
+    "manifest.ba9abd24.js",
+    "0.5a223752.js",
     "vendor.e0dd2016.js.map",
     "client.65a54a0e.js.map",
-    "manifest.c10949a6.js.map",
+    "manifest.ba9abd24.js.map",
     "CNAME",
     "index.html"
   ],
   "initial": [
-    "manifest.c10949a6.js",
+    "manifest.ba9abd24.js",
     "vendor.e0dd2016.js",
     "client.65a54a0e.js"
   ],
   "async": [
-    "0.0b2a5921.js"
+    "0.5a223752.js"
   ],
   "modules": {
     "54883462": [
