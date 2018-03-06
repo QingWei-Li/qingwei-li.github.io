@@ -64,7 +64,7 @@ export default {
 }
 
 .heart {
-  background-image: url(../assets/heart.png);
+  background-image: url(~@/assets/heart.png);
   background-position: left;
   background-repeat: no-repeat;
   background-size: 2900%;

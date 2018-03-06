@@ -12,7 +12,7 @@
           <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
           <li class="links__item"><a href="http://twitter.com/cinwell_li">Twitter</a></li>
           <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
-          <li class="links__item"><a href="https://github.com/qingwei-li/donate">Donate</a></li>
+          <li class="links__item"><nuxt-link to="/resume">简历</nuxt-link> </li>
         </ul>
         <div class="button-group">
           <heart class="heart-button"></heart>
@@ -33,21 +33,16 @@
 </template>
 
 <script>
-import Project from '../components/project.vue';
-import Heart from '../components/heart.vue';
+import Project from '@/components/project.vue';
+import Heart from '@/components/heart.vue';
 
 export default {
   name: 'home',
 
   components: { Project, Heart },
 
-  head: {
-    title: 'Qingwei Li(cinwell)',
-    link: [{ rel: 'favicon', href: 'https://github.com/qingwei-li.png' }]
-  },
-
   created() {
-    this.projects = require('../projects.json');
+    this.projects = require('@/assets/projects.json');
   }
 };
 </script>
@@ -84,6 +79,7 @@ ul {
 
 .profile__container {
   flex: 1;
+  margin-top: -100px;
 }
 
 .profile__avatar {
