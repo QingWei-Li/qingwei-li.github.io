@@ -21,7 +21,7 @@ _2016.03 - 2018.04_
 
 主要参与基础工具和服务的开发、维护工作。
 
-* 初期参与开发和维护基于 Vue.js 的开源组件库：ELement 和 MintUI。
+* 初期参与开发和维护基于 Vue.js 的开源组件库：Eement 和 MintUI。
 * 开发和维护一款基于 webpack 的前端构建工具。
 * 负责维护公司内部的前端发布服务，使用 Koa.js、Vue.js、TypeScript、Jenkins、MongoDB 等技术栈。
 * 参与开发和维护依赖 OSS 和 CDN 的资源管理服务。

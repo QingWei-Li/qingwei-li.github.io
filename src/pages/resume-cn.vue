@@ -38,6 +38,10 @@ export default {
   opacity: 0.6;
 }
 
+.cssume {
+  font-weight: normal;
+}
+
 @media print {
   .download {
     display: none;
