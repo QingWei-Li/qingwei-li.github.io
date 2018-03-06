@@ -6,11 +6,11 @@
 
 我从事前端开发工作有三年左右，主要做基础库、工具的开发，有一年左右 Nodejs 应用开发经验；热爱开源；熟练运用且不仅限于 Vue.js、Koa.js、webpack 等主流工具。
 
-- [cinwell.li+job@gmail.com](mailto:cinwell.li+job@gmail.com 'email')
-- [github.com/qingwei-li](https://github.com/qingwei-li 'github')
-- [cinwell.com](https://cinwell.com 'website')
+* [cinwell.li+job@gmail.com](mailto:cinwell.li+job@gmail.com 'email')
+* [github.com/qingwei-li](https://github.com/qingwei-li 'github')
+* [cinwell.com](https://cinwell.com 'website')
 
-------
+---
 
 ## 工作经历
 
@@ -19,13 +19,12 @@
 **高级前端工程师**
 _2016.03 - 2018.04_
 
-
 主要参与基础工具和服务的开发、维护工作。
 
-- 初期参与开发和维护基于 Vue.js 的开源组件库：ELement 和 MintUI。
-- 开发和维护一款基于 webpack 的前端构建工具。
-- 负责维护公司内部的前端发布服务，使用 Koa.js、Vue.js、TypeScript、Jenkins、MongoDB 等技术栈。
-- 参与开发和维护依赖 OSS 和 CDN 的资源管理服务。
+* 初期参与开发和维护基于 Vue.js 的开源组件库：ELement 和 MintUI。
+* 开发和维护一款基于 webpack 的前端构建工具。
+* 负责维护公司内部的前端发布服务，使用 Koa.js、Vue.js、TypeScript、Jenkins、MongoDB 等技术栈。
+* 参与开发和维护依赖 OSS 和 CDN 的资源管理服务。
 
 ### [爱范儿](https://ifanr.com)
 
@@ -34,17 +33,14 @@ _2015.06 - 2016.03_
 
 参与业务项目的前端开发。
 
-- 负责电商网站的桌面版和移动版的开发，使用 Vue.js、webpack、Karma 等工具。
-- 参与微信排版工具的组件部分的开发，使用 React、 Redux、webpack 等工具。
-
+* 负责电商网站的桌面版和移动版的开发，使用 Vue.js、webpack、Karma 等工具。
+* 参与微信排版工具的组件部分的开发，使用 React、 Redux、webpack 等工具。
 
 ## 项目
-
 
 ### 前端发布服务
 
 **前端、后端、运维**
-
 
 负责整个服务的开发和维护工作。在我负责期间，实现了多个测试环境、异地多活、CI 服务、命令行工具等功能，进一步降低使用门槛和提高系统稳定性；用 TypeScript 重写前端和后端代码，并整理开发文档；开发监控服务，给管理员提供监控面板方便排错，为用户提供 Nginx 监控观察站点状况。
 
@@ -74,11 +70,9 @@ _2015.06 - 2016.03_
 
 ## 技能
 
-- JavaScript
-- TypeScript
-- Node.js
-- Vue.js
-- webpack
-- Koa.js
-- Preact
-- Linux
+* JavaScript
+* TypeScript
+* Vue.js
+* webpack
+* Koa.js
+* Preact

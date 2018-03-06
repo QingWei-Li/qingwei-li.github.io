@@ -12,7 +12,7 @@
           <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
           <li class="links__item"><a href="http://twitter.com/cinwell_li">Twitter</a></li>
           <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
-          <li class="links__item"><nuxt-link to="/resume">简历</nuxt-link> </li>
+          <li class="links__item"><nuxt-link to="/resume-cn">简历</nuxt-link> </li>
         </ul>
         <div class="button-group">
           <heart class="heart-button"></heart>
@@ -48,28 +48,6 @@ export default {
 </script>
 
 <style>
-@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
-
-body {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  color: #2c3e50;
-  max-width: 600px;
-  margin: auto;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #42b983;
-}
-
-ul {
-  list-style-type: none;
-}
-
 .profile {
   text-align: center;
   height: 100vh;
