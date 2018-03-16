@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "deploy": "nuxt generate && gh-pages -d dist -b master"
+    "deploy": "nuxt generate && gh-pages -d dist -b master -t"
   },
   "version": "0.0.0",
   "homepage": "https://cinwell.com",
