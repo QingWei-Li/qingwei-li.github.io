@@ -24,7 +24,7 @@ export default {
 
   filters: {
     num(input) {
-      return isNaN(input)
+      return input < 1
         ? 'loading'
         : String(input).replace(/(.)(?=(.{3})+$)/g, n => n + ',');
     }
