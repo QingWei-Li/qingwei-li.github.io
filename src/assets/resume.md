@@ -62,7 +62,7 @@ _2015.06 - 2016.03_
 
 基于 webpack 的前端构建工具。我负责该工具的开发，简化了 webpack 的配置项，甚至实现“零配置”构建的特性，后续还提供单元测试、使用文档、新手入门的文章以及插件机制并提供一些基础的插件和模板。后期作为 Element、MintUI 项目代替 webpack 的构建工具。
 
-### [文档生成工具 docsify](https://github.com/ElemeFE/docsify)
+### [文档生成工具 docsify](https://github.com/qingwei-li/docsify)
 
 **前端开发**
 
