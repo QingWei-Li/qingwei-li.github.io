@@ -4,6 +4,7 @@
     <div class="project__info">
       <h5 class="project__name">{{ data.name }}</h5>
       <p class="project__desc">{{ data.desc }}</p>
+      <div v-if="data.type" class="project__tag">{{ data.type }}</div>
       <ul class="project__links">
         <li>
           <a target="_blank" :href="data.name | repo">GitHub</a>
@@ -54,6 +55,7 @@ export default {
   display: flex;
   text-align: left;
   align-items: center;
+  position: relative;
 }
 
 .project__image {
@@ -90,5 +92,14 @@ export default {
 
 .project__links a {
   padding: 0 0.4rem;
+}
+
+.project__tag {
+  position: absolute;
+  right: 0;
+  border-radius: 4px;
+  background: #f0f0f0;
+  padding: 2px 4px;
+  top: 0;
 }
 </style>
