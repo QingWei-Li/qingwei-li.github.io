@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <a class="download" href="//pdfcrowd.com/url_to_pdf/?width=1030pt&height=1332pt&use_print_media=1&pdf_name=qingwei-li">下载 PDF</a>
+    <a class="download" href="/qingwei-li.pdf">下载 PDF</a>
     <article class='cssume' v-html="content"></article>
   </div>
 </template>
