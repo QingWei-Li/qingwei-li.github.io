@@ -73,6 +73,18 @@
     ]
   },
   {
+    "name": "Laue",
+    "desc": "🖖📈 Modern charts for Vue.js",
+    "image":
+      "https://user-images.githubusercontent.com/7565692/38163056-375ee8a6-3520-11e8-9ac3-b989186a4374.png",
+    "links": [
+      {
+        "name": "Documentation",
+        "url": "https://laue.js.org"
+      }
+    ]
+  },
+  {
     "name": "Vuep.run",
     "desc": "🏃 An online playground for Vue",
     "type": "website",
