@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <a class="download" href="/qingwei-li.pdf">下载 PDF</a>
+    <a class="download" href="//box.cinwell.com/qingwei-li.pdf">下载 PDF</a>
     <article class='cssume' v-html="content"></article>
   </div>
 </template>
