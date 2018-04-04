@@ -27,9 +27,10 @@ export default {
 
   filters: {
     repo(name) {
-      return 'https://github.com/' + name.indexOf('/') === -1
-        ? 'qingwei-li' + name
-        : name;
+      return (
+        'https://github.com/' +
+        (name.indexOf('/') === -1 ? 'qingwei-li/' + name : name)
+      );
     }
   },
 
