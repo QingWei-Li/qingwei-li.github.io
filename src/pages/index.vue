@@ -12,7 +12,7 @@
           <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
           <li class="links__item"><a href="http://twitter.com/cinwell_li">Twitter</a></li>
           <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
-          <li class="links__item"><nuxt-link to="/resume-cn">简历</nuxt-link> </li>
+          <!-- <li class="links__item"><nuxt-link to="/resume-cn">简历</nuxt-link> </li> -->
         </ul>
         <div class="button-group">
           <heart class="heart-button"></heart>
