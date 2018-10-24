@@ -39,16 +39,19 @@ export default {
 
   methods: {
     get(added = 0) {
-      api('classes/Visit?count=1&limit=0').then(data => {
-        this.total = data.count + added;
+      api('/count').then(data => {
+        this.total = Number(data) + added;
       });
     },
 
     save() {
       localStorage.setItem('LOVED', 1);
       this.total++;
-      api('classes/Visit', {
+      api('/add', {
         method: 'POST',
+        headers: {
+          'content-type': 'application/json'
+        },
         body: JSON.stringify({
           loved: this.loved
         })
