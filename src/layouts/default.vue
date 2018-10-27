@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: #42b983;
+  color: #607d8b;
 }
 
 ul {
