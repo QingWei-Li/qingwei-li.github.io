@@ -46,6 +46,7 @@ export default {
 
     save() {
       localStorage.setItem('LOVED', 1);
+      this.loved = true;
       this.total++;
       api('/add', {
         method: 'POST',
