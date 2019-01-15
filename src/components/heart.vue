@@ -4,17 +4,17 @@
       class="heart"
       @animationstart="save"
       @animationend="clicked = false"
-      :class="{ animate: clicked, loved }">
-    </div>
+      :class="{ animate: clicked, loved }"
+    ></div>
     <span class="heart-text">{{ total | num }}</span>
   </div>
 </template>
 
 <script>
-import { api } from '../api';
+import { api } from "../api";
 
 export default {
-  name: 'heart',
+  name: "heart",
 
   data: () => ({
     clicked: false,
@@ -25,38 +25,40 @@ export default {
   filters: {
     num(input) {
       return input < 1
-        ? 'loading'
-        : String(input).replace(/(.)(?=(.{3})+$)/g, n => n + ',');
+        ? "loading"
+        : String(input).replace(/(.)(?=(.{3})+$)/g, n => n + ",");
     }
   },
 
   mounted() {
     if (!this.$isServer) {
-      this.loved = !!localStorage.getItem('LOVED');
+      this.loved = !!localStorage.getItem("LOVED");
       this.get();
     }
   },
 
   methods: {
     get(added = 0) {
-      api('/count').then(data => {
+      api("/count").then(data => {
         this.total = Number(data) + added;
       });
     },
 
     save() {
-      localStorage.setItem('LOVED', 1);
-      this.loved = true;
       this.total++;
-      api('/add', {
-        method: 'POST',
+      api("/add", {
+        method: "POST",
         headers: {
-          'content-type': 'application/json'
+          "content-type": "application/json"
         },
         body: JSON.stringify({
           loved: this.loved
         })
-      }).then(() => this.get());
+      }).then(() => {
+        this.get();
+        localStorage.setItem("LOVED", 1);
+        this.loved = true;
+      });
     }
   }
 };
