@@ -9,7 +9,6 @@
         <h1 class="profile__name">Qingwei Li</h1>
         <blockquote class="profile__description">A Web developer who loves to create amazing things</blockquote>
         <ul class="links">
-          <li class="links__item"><a href="http://weibo.com/ihermit">Weibo</a></li>
           <li class="links__item"><a href="http://twitter.com/cinwell_li">Twitter</a></li>
           <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
           <!-- <li class="links__item"><nuxt-link to="/resume-cn">简历</nuxt-link> </li> -->
