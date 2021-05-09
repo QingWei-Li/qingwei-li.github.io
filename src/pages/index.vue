@@ -32,9 +32,9 @@
       >More projects</a>
     </section>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备19024227号-1</a>
-    </footer>
+    </footer> -->
   </main>
 </template>
 
