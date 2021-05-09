@@ -1,5 +1,19 @@
 [
   {
+    "name": "Notea",
+    "desc": "📒 Self hosted note taking app stored on S3.",
+    "image": "https://cdn.statically.io/gh/QingWei-Li/notea/gh-pages/screen.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://cinwell.com/notea"
+      },{
+        "name": "Demo",
+        "url": "https://notea.vercel.app"
+      }
+    ]
+  },
+  {
     "name": "docsify",
     "desc": "🃏 A magical documentation site generator.",
     "image": "https://docsify.js.org/_media/icon.svg",
@@ -19,7 +33,7 @@
     "links": [
       {
         "name": "Documentation",
-        "url": "https://qingwei-li.github.io/vuep/"
+        "url": "https://cinwell.com/vuep/"
       }
     ]
   },

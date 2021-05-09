@@ -2,16 +2,16 @@
   <main>
     <section class="profile">
       <div class="profile__container">
-        <img
-          class="profile__avatar"
-          src="https://github.com/qingwei-li.png"
-          alt="qingwei-li">
+        <img class="profile__avatar" src="https://github.com/qingwei-li.png" alt="qingwei-li" />
         <h1 class="profile__name">Qingwei Li</h1>
         <blockquote class="profile__description">A Web developer who loves to create amazing things</blockquote>
         <ul class="links">
-          <li class="links__item"><a href="http://twitter.com/cinwell_li">Twitter</a></li>
-          <li class="links__item"><a href="https://github.com/qingwei-li">GitHub</a></li>
-          <!-- <li class="links__item"><nuxt-link to="/resume-cn">简历</nuxt-link> </li> -->
+          <li class="links__item">
+            <a href="http://twitter.com/cinwell_li">Twitter</a>
+          </li>
+          <li class="links__item">
+            <a href="https://github.com/qingwei-li">GitHub</a>
+          </li>
         </ul>
         <div class="button-group">
           <heart class="heart-button"></heart>
@@ -26,22 +26,29 @@
           <project :data="p" />
         </li>
       </ul>
-      <a target="_blank" href="https://github.com/QingWei-Li?utf8=%E2%9C%93&tab=repositories&q=&type=source">More projects</a>
+      <a
+        target="_blank"
+        href="https://github.com/QingWei-Li?utf8=%E2%9C%93&tab=repositories&q=&type=source"
+      >More projects</a>
     </section>
+
+    <footer class="footer">
+      <a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备19024227号-1</a>
+    </footer>
   </main>
 </template>
 
 <script>
-import Project from '@/components/project.vue';
-import Heart from '@/components/heart.vue';
+import Project from "@/components/project.vue";
+import Heart from "@/components/heart.vue";
 
 export default {
-  name: 'home',
+  name: "home",
 
   components: { Project, Heart },
 
   created() {
-    this.projects = require('@/assets/projects.json');
+    this.projects = require("@/assets/projects.json");
   }
 };
 </script>
@@ -114,5 +121,10 @@ export default {
   top: 50%;
   transform: translate(-50%, -47.5%);
   position: absolute;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 40px;
 }
 </style>
